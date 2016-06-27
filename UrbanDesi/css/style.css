@@ -2088,9 +2088,6 @@ screen and (min-device-pixel-ratio: 1.5) {
 }
 
 @media screen and (min-width: 1024px) {
-    .filters{
-        max-width:30%; 
-    }
     .filters.fix-bottom {
         position: fixed;
         top: 0;
@@ -2242,7 +2239,6 @@ screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .filters-cleaner.show {
-    width: 30%;
     z-index: 99;
     visibility: visible;
     -moz-transform: translateX(0);
