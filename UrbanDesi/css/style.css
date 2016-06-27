@@ -2058,7 +2058,7 @@ screen and (min-device-pixel-ratio: 1.5) {
     top: 390px;
     right: 0;
     z-index: 99;
-    width: 200px;
+    width: 407px;
     min-height: 100vh;
     background: #F4F4F4;
     border-top: 1px solid #e1e1e1;
@@ -2088,6 +2088,10 @@ screen and (min-device-pixel-ratio: 1.5) {
 }
 
 @media screen and (min-width: 1024px) {
+
+    .filters.show {
+
+    }
     
     .filters.fix-bottom {
         position: fixed;
@@ -2095,7 +2099,6 @@ screen and (min-device-pixel-ratio: 1.5) {
         bottom: 0;
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
-        width: 30%;
     }
 }
 
